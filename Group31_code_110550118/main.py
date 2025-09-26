@@ -48,24 +48,7 @@ def insert_image(text_widget, image_path):
 
 def search_all_mushrooms():
     # 建立連接
-    
-    conn = psycopg2.connect(
-        dbname='postgres',
-        user='postgres',
-        password='qwer0123',
-        host='database-2.cq5amozghayi.us-east-1.rds.amazonaws.com',
-        port='5432'
-    )
-    
-    '''
-    conn = psycopg2.connect(
-        dbname='mushroomdictionary',
-        user='postgres',
-        password='密碼',
-        host='localhost',
-        port='1348'
-    )
-    '''
+    # 有帳密資訊，故移除
 
     # 建立遊標
     cur = conn.cursor()
@@ -97,23 +80,7 @@ def search_all_mushrooms():
 
 def search_mushrooms_by_name():
     # 建立連接
-    conn = psycopg2.connect(
-        dbname='postgres',
-        user='postgres',
-        password='qwer0123',
-        host='database-2.cq5amozghayi.us-east-1.rds.amazonaws.com',
-        port='5432'
-    )
-    
-    '''
-    conn = psycopg2.connect(
-        dbname='mushroomdictionary',
-        user='postgres',
-        password='密碼',
-        host='localhost',
-        port='1348'
-    )
-    '''
+    # 有帳密資訊，故移除
 
     # 建立遊標
     cur = conn.cursor()
@@ -151,23 +118,8 @@ def search_mushrooms_by_name():
 
 def search_mushrooms_by_theme():
     # 建立連接
-    conn = psycopg2.connect(
-        dbname='postgres',
-        user='postgres',
-        password='qwer0123',
-        host='database-2.cq5amozghayi.us-east-1.rds.amazonaws.com',
-        port='5432'
-    )
+    # 有帳密資訊，故移除
 
-    '''
-    conn = psycopg2.connect(
-        dbname='mushroomdictionary',
-        user='postgres',
-        password='密碼',
-        host='localhost',
-        port='1348'
-    )
-    '''
     # 建立遊標
     cur = conn.cursor()
 
@@ -222,23 +174,7 @@ def search_mushrooms_by_theme():
 
 def search_mushrooms_by_rarity(Rarity):
     # 建立連接
-    conn = psycopg2.connect(
-        dbname='postgres',
-        user='postgres',
-        password='qwer0123',
-        host='database-2.cq5amozghayi.us-east-1.rds.amazonaws.com',
-        port='5432'
-    )
-    
-    '''
-    conn = psycopg2.connect(
-        dbname='mushroomdictionary',
-        user='postgres',
-        password='密碼',
-        host='localhost',
-        port='1348'
-    )
-    '''
+    # 有帳密資訊，故移除
 
     # 建立遊標
     cur = conn.cursor()
@@ -274,23 +210,7 @@ def search_mushrooms_by_rarity(Rarity):
 
 def search_mushrooms_by_price():
     # 建立連接
-    conn = psycopg2.connect(
-        dbname='postgres',
-        user='postgres',
-        password='qwer0123',
-        host='database-2.cq5amozghayi.us-east-1.rds.amazonaws.com',
-        port='5432'
-    )
-    
-    '''
-    conn = psycopg2.connect(
-        dbname='mushroomdictionary',
-        user='postgres',
-        password='密碼',
-        host='localhost',
-        port='1348'
-    )
-    '''
+    # 有帳密資訊，故移除
 
     # 建立遊標
     cur = conn.cursor()
