@@ -4,6 +4,8 @@
 
 ### Demo影片：https://youtu.be/v0uwyU3PEao
 
+---
+
 ### 圖鑑UI操作
   1. 輸入名稱後，按下名稱對應的搜尋，便可列出名稱符合關鍵字的菇菇。
   2. 輸入栽培主題名稱後，按下栽培主題對應的搜尋，便可列出栽培主題符合關鍵字的菇菇。
@@ -12,6 +14,7 @@
   5. 按下「所有」，會列出所有菇菇的資訊。
 * 按下「搜尋」或「所有」，符合條件的菇菇會列表出現在中間的白色長方形區域。
 
+---
 
 ### Database的Schema
 * mushroom_dictionary(theme_id, theme_name, id, name, rare_state, rarity, NP)
